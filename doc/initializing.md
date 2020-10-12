@@ -15,4 +15,14 @@ In next image we can see the ssh public key created.
 
 ![SSHPublicKey](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/img/sshKey.PNG)
 
-## Assingment of email and name to appear in commits.
+## Email and name assingment to appear in commits.
+The email, username and avatar are configured to appear in commits.
+They were added with command:
+```
+git config --global user.email email@example.com
+git config --global user.name username
+```
+It is added the pull rebase too with the option:
+```
+git --global pull.rebase true
+```
