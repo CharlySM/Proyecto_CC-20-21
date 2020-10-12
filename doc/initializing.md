@@ -31,9 +31,9 @@ git --global pull.rebase true
 
 This data were modified in Entornos Virtules subject in Computer science degree in University of Granada.
 
-## Activating two factor-authorization.
+## Activating two factor-authentication.
 
-At first we go to settings option -> two factor-authorization.
+At first we go to settings option -> two factor-authentication.
 
 ![twoFactor](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/img/twoFactor.PNG)
 
