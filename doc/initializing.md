@@ -37,6 +37,6 @@ At first we go to settings option -> two factor-authentication.
 
 ![twoFactor](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/img/twoFactor.PNG)
 
-when it is activated is show this.
+When it is activated is show this.
 
 ![Activate](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/img/activateTwo.PNG)
