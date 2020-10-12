@@ -30,3 +30,13 @@ git --global pull.rebase true
 ## Modify profile to appear the avatar, complete name and university.
 
 This data were modified in Entornos Virtules subject in Computer science degree in University of Granada.
+
+## Activating two factor-authorization.
+
+At first we go to settings option -> two factor-authorization.
+
+![twoFactor](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/img/twoFactor.PNG)
+
+when it is activated is show this.
+
+![Activate](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/img/activateTwo.PNG)
