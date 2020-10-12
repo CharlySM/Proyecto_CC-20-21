@@ -26,3 +26,7 @@ It is added the pull rebase too with the option:
 ```
 git --global pull.rebase true
 ```
+
+## Modify profile to appear the avatar, complete name and university.
+
+This data were modified in Entornos Virtules subject in Computer science degree in University of Granada.
