@@ -12,7 +12,7 @@ La web constará de una página principal donde se tendrá un opción de añadir
 
 También se podrá crear distintos subdirectorios de las asignaturas para subclasificar los enlaces dentro de cada asignatura.
 
-De esta forma podremos tener los distintos enlaces de las asignaturas organizados.
+De esta forma podremos tener los distintos enlaces de las asignaturas organizados, ya que en esta situación de COVID-19 al haber también clases online los enlaces de las asignaturas son muchos y puede llevar a confusiones.
 
 ## Arquitectura.
 
