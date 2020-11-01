@@ -1,4 +1,4 @@
-# Project-CC.
+# Planificador Asignaturas Master.
 
 Proyecto para la asignatra CC-1 del master de ingeniería informática de la UGR.
 
