@@ -31,7 +31,7 @@ Se va utilizar una arquitectura por capas. Las capas de las que constará la web
 ## Tecnología del proyecto.
 
 ### Lenguaje
-El proyecto se va a desarrollar en ruby. Se usará la gema sinatra para desarrollar la api. Se van a usar las versión de `sinatra 2.1.0` la versión de `json 2.3.1` la versión de `io-console 0.5.6` y `yard 0.9.25`. La gema yard se usará para generar documentación de las funciones que se desarrollen en el proyecto. La versión de ruby usada es `ruby 2.5.5p157`.
+El proyecto se va a desarrollar en ruby. Se usará la gema sinatra para desarrollar la api. Se van a usar las versión de `sinatra 2.1.0` la versión de `json 2.3.1` la versión de `io-console 0.5.6` y `yard 0.9.25`. La gema yard se usará para generar documentación de las funciones que se desarrollen en el proyecto. La versión de ruby usada es `ruby 2.7.2`.
 
 
 ### Base de datos.
