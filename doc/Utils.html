@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: Utils
+  
+    &mdash; Documentation by YARD 0.9.25
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "Utils";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index (U)</a> &raquo;
+    
+    
+    <span class="title">Utils</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: Utils
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">Utils</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  <dl>
+      <dt>Includes:</dt>
+      <dd>Singleton</dd>
+  </dl>
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>src/Utils.rb</dd>
+  </dl>
+  
+</div>
+
+
+
+
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getCurrentDate-instance_method" title="#getCurrentDate (instance method)">#<strong>getCurrentDate</strong>  &#x21d2; Array </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Get the current date in array of string.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getJson-instance_method" title="#getJson (instance method)">#<strong>getJson</strong>(file)  &#x21d2; Hashmap </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Get the json file in Hashmap type.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#insertEntradaAgenda-instance_method" title="#insertEntradaAgenda (instance method)">#<strong>insertEntradaAgenda</strong>(agendaInsert, nota, split)  &#x21d2; Hashmap </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Insert new note in agenda.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#insertJsonIntoFile-instance_method" title="#insertJsonIntoFile (instance method)">#<strong>insertJsonIntoFile</strong>(path, map)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Insert map into json file in param.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#returnJson-instance_method" title="#returnJson (instance method)">#<strong>returnJson</strong>(asig, apunte, num)  &#x21d2; Hashmap </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Search the element of hashmap and return the finding elements in hashmap or
+return all links in links.json.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#searchIntoJson-instance_method" title="#searchIntoJson (instance method)">#<strong>searchIntoJson</strong>(asig, apunte, links)  &#x21d2; Hashmap </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Search the element of hashmap and return the finding elements in hashmap.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="getCurrentDate-instance_method">
+  
+    #<strong>getCurrentDate</strong>  &#x21d2; <tt>Array</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Get the current date in array of string</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the current date in Array of String first position=year, second
+position=month third position=day</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+26
+27
+28</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Utils.rb', line 26</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_getCurrentDate'>getCurrentDate</span><span class='lparen'>(</span><span class='rparen'>)</span>
+
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="getJson-instance_method">
+  
+    #<strong>getJson</strong>(file)  &#x21d2; <tt>Hashmap</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Get the json file in Hashmap type</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>file</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the path of json file</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hashmap</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the contents of json file in hasmap</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+19
+20
+21</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Utils.rb', line 19</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_getJson'>getJson</span><span class='lparen'>(</span><span class='id identifier rubyid_file'>file</span><span class='rparen'>)</span>
+
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="insertEntradaAgenda-instance_method">
+  
+    #<strong>insertEntradaAgenda</strong>(agendaInsert, nota, split)  &#x21d2; <tt>Hashmap</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Insert new note in agenda</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>agendaInsert</span>
+      
+      
+        <span class='type'>(<tt>Hashmap</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>The hashmap of agenda</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>nota</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>The new note of agenda</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>split</span>
+      
+      
+        <span class='type'>(<tt>Array</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>The current date in Array of String first position=year, second
+position=month third position=day</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hashmap</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the hashmap of agenda</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+56
+57
+58</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Utils.rb', line 56</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_insertEntradaAgenda'>insertEntradaAgenda</span><span class='lparen'>(</span><span class='id identifier rubyid_agendaInsert'>agendaInsert</span><span class='comma'>,</span> <span class='id identifier rubyid_nota'>nota</span><span class='comma'>,</span> <span class='id identifier rubyid_split'>split</span><span class='rparen'>)</span>
+
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="insertJsonIntoFile-instance_method">
+  
+    #<strong>insertJsonIntoFile</strong>(path, map)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Insert map into json file in param</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>path</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the path of json file</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>map</span>
+      
+      
+        <span class='type'>(<tt>Hashmap</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the json to save in json file</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+11
+12
+13</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Utils.rb', line 11</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_insertJsonIntoFile'>insertJsonIntoFile</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='comma'>,</span> <span class='id identifier rubyid_map'>map</span><span class='rparen'>)</span>
+
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="returnJson-instance_method">
+  
+    #<strong>returnJson</strong>(asig, apunte, num)  &#x21d2; <tt>Hashmap</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Search the element of hashmap and return the finding elements in hashmap or
+return all links in links.json</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>asig</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the asig of element</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>apunte</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the name of element</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>num</span>
+      
+      
+        <span class='type'>(<tt>int</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>That num is 1 when the request was sent from Search Form, the num is 0 when
+the request was sent from all Links form</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hashmap</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the hashmap of the finding elements or all elemnts</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+46
+47
+48</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Utils.rb', line 46</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_returnJson'>returnJson</span><span class='lparen'>(</span><span class='id identifier rubyid_asig'>asig</span><span class='comma'>,</span> <span class='id identifier rubyid_apunte'>apunte</span><span class='comma'>,</span> <span class='id identifier rubyid_num'>num</span><span class='rparen'>)</span>
+
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="searchIntoJson-instance_method">
+  
+    #<strong>searchIntoJson</strong>(asig, apunte, links)  &#x21d2; <tt>Hashmap</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Search the element of hashmap and return the finding elements in hashmap</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>asig</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the asig of element</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>apunte</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the name of element</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>links</span>
+      
+      
+        <span class='type'>(<tt>hashmap</tt>, <tt>#read</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the hashmap of elements</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hashmap</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the hashmap of the finding elements</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+36
+37
+38</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Utils.rb', line 36</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_searchIntoJson'>searchIntoJson</span><span class='lparen'>(</span><span class='id identifier rubyid_asig'>asig</span><span class='comma'>,</span> <span class='id identifier rubyid_apunte'>apunte</span><span class='comma'>,</span> <span class='id identifier rubyid_links'>links</span><span class='rparen'>)</span>
+
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Mon Nov  2 12:48:53 2020 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.25 (ruby-2.5.5).
+</div>
+
+    </div>
+  </body>
+</html>
