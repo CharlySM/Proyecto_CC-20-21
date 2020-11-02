@@ -55,20 +55,35 @@ Para integración contínua se usará travis. Esta aplicación parecida a jenkin
 
 1. En primer lugar se crea el proyecto inicial, se añade una descripción y documentación de como se ha creado.
 2. Después de crear el proyecto, se decide la tecnología, el lenguaje y la arquitectura del proyecto. Además se añade la configuración del proyecto para poder ejecutarse con la tecnología elegida con funcionalidad dummy.
+
 [HU1 Creación de configuración del proyecto](https://github.com/CharlySM/Proyecto_CC-20-21/issues/4)
+
 3. Se añade funcionalidad de logging, mostrar enlaces de usuario y mostrar entradas de agenda para la api, y se añaden tests para la funcionalidad añadida.
+
 [HU2 Creación de logging para usuarios](https://github.com/CharlySM/Proyecto_CC-20-21/issues/5)
+
 [HU3 Creación funcionalidad para poder ver enlaces almacenados](https://github.com/CharlySM/Proyecto_CC-20-21/issues/6)
+
 [HU8 Crear funcionalidad para poder ver la agenda](https://github.com/CharlySM/Proyecto_CC-20-21/issues/11)
+
 4. Una vez hemos añadido poder ver nuestra información añadimos la funcionalidad para insertar un enlace, una entrada de agenda y actualizar un enlace y una entrada de agenda, también se añaden test.
+
 [HU4 Funcionalidad para poder añadir enlaces nuevos](https://github.com/CharlySM/Proyecto_CC-20-21/issues/7)
+
 [HU9 Crear funcionalidad para añadir entrada a la agenda](https://github.com/CharlySM/Proyecto_CC-20-21/issues/12)
+
 [HU6 Funcionalidad para actualizar enlaces](https://github.com/CharlySM/Proyecto_CC-20-21/issues/9)
+
 [HU11 Crear funcionalidad para poder actualizar una entrada de la agenda](https://github.com/CharlySM/Proyecto_CC-20-21/issues/14)
+
 5. Como ya se puede añadir y actualizar enlaces y entradas de agenda, ahora añadimos la funcionalidad para borrar y buscar enlaces y entradas de agenda, además se añade los test para esta funcionalidad.
+
 [HU5 Funcionalidad para poder borrar un enlace o varios existentes](https://github.com/CharlySM/Proyecto_CC-20-21/issues/8)
+
 [HU10 Crear funcionalidad para borrar una entrada de la agenda](https://github.com/CharlySM/Proyecto_CC-20-21/issues/13)
+
 [HU7 Añadir funcionalidad de buscar enlaces](https://github.com/CharlySM/Proyecto_CC-20-21/issues/10)
+
 [HU12 Crear funcionalidad para poder buscar una entrada en la agenda](https://github.com/CharlySM/Proyecto_CC-20-21/issues/15)
 
 ## Milestones, issues e historias de usuario.
