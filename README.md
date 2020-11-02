@@ -94,6 +94,7 @@ Para integración contínua se usará travis. Esta aplicación parecida a jenkin
   3. [Añadir fichero cc.yaml](https://github.com/CharlySM/Proyecto_CC-20-21/issues/17)
   4. [Añadir ficheros necesarios para ejecutar una app sinatra](https://github.com/CharlySM/Proyecto_CC-20-21/issues/18)
   5. [Añadir clase utils](https://github.com/CharlySM/Proyecto_CC-20-21/issues/19)
+  6. [Actualizar Readme](https://github.com/CharlySM/Proyecto_CC-20-21/issues/3)
 
 [Historias de Usuario(HU)](https://github.com/CharlySM/Proyecto_CC-20-21/milestone/2)
   1. [HU1 Creación de configuración del proyecto](https://github.com/CharlySM/Proyecto_CC-20-21/issues/4)
