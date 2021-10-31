@@ -1,4 +1,4 @@
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-hacker
 relative_links:
   enabled: true
   collections: true
