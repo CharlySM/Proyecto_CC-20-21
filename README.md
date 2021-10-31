@@ -2,7 +2,7 @@
 
 Proyecto para la asignatra CC-1 del master de ingeniería informática de la UGR.
 
-Enlace para la configuración de github. [Documentación](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/initializing.md)
+Enlace para la configuración de github. [Documentación](https://charlysm.github.io/Proyecto_CC-20-21/doc/initializing.md)
 
 ## Descripción.
 
