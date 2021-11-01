@@ -1,2 +1,2 @@
 theme: jekyll-theme-merlot
-include: ['docs','docs/img']
+include: ['docs','doc/img']
