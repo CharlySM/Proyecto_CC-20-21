@@ -1,7 +1,4 @@
 theme: jekyll-theme-merlot
-relative_links:
-  enabled: true
-  collections: true
 include:
   - CONTRIBUTING.md
   - README.md
@@ -11,4 +8,5 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-  - /docs/initializing.md
+  - docs
+relative_permalinks: false
