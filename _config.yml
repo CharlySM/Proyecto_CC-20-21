@@ -1,6 +1,2 @@
 theme: jekyll-theme-merlot
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
+site_url: https://charlysm.github.io/Proyecto_CC-20-21/
