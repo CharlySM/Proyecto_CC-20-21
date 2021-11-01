@@ -1,5 +1,3 @@
 theme: jekyll-theme-merlot
 include:
   - doc
-baseurl: ""
-url: "https://charlysm.github.io/Proyecto_CC-20-21/"
