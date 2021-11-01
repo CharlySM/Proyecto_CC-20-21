@@ -1,4 +1,7 @@
 theme: jekyll-theme-merlot
+relative_links:
+  enabled: true
+  collections: true
 include:
   - doc
-baseurl: "https://charlysm.github.io/Proyecto_CC-20-21/"
+  - initializing.md
