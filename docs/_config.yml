@@ -1,6 +1,0 @@
-theme: jekyll-theme-merlot
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
