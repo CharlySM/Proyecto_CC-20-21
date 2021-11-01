@@ -18,7 +18,7 @@ Then it is configured the local environment of gitbash with the pair public key 
 Before we generate the public key from gitbash terminal, then we copy the public key in settings option -> SSH and GPG Keys option.
 In next image we can see the ssh public key created.
 
-![SSHPublicKey](https://github.com/CharlySM/Proyecto_CC-20-21/blob/main/doc/img/sshKey.PNG)
+![SSHPublicKey](./img/sshKey.PNG)
 
 ## Email and name assingment to appear in commits.
 The email, username and avatar are configured to appear in commits.
