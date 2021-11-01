@@ -1,3 +1,2 @@
 theme: jekyll-theme-merlot
-include: ['docs']
-#relative_permalinks: false
+relative_permalinks: false
