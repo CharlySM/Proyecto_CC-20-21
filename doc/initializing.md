@@ -1,3 +1,8 @@
+---
+layout: default
+title: initializing
+---
+
 # Explaining
 
 This documentation explaining like the project was initilized and how the set-up was started.
